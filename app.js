@@ -11,7 +11,7 @@ app.use(express.json());
 dotenv.config();
 connectDB();
 const corsOptions = {
-    origin: 'http://localhost:3000', 
+    origin: 'https://invoice-generator-client-9tb1.onrender.com/', 
     methods: ['GET', 'POST'],
     allowedHeaders: ['Content-Type', 'Authorization'] // Add allowed headers as needed
   };
